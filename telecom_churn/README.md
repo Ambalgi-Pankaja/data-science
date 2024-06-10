@@ -12,7 +12,10 @@
 
 ### From our analysis, below are our findings of churning of customer,
 * ### Customer having internation plan are likely to churn out from the telecom service. We could not identify the reason behind the churning out. We need further data of internation calls and customers to analyse.
+#### Below shows the plot of international plan users v/s churn. We can see that, most of the internation plan = 'True' have churned out.
 
+![plot internation plan hue churn.](international_call.png)
 
 * ### Users who have made number of service calls are more likely to churn out. The reason could be unhappy with the service or taking longer time in fixing customer issues. We need further data on customer service calls to root cause the reason behind churning out.
-
+#### Below shows the plot of more service calls v/s churn. We can see that, most of the users who have made more service calls have churned out.
+![plot customer service calls hue churn.](cc.png)
